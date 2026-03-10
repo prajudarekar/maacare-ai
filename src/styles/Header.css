@@ -1,0 +1,54 @@
+/* Top header bar */
+.top-header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  height: 28px;
+}
+
+.logo span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #6b4b7d;
+}
+
+/* Language switch */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.lang-switch button {
+  background: none;
+  border: none;
+  color: #9a7fb3;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 2px 4px;
+}
+
+.lang-switch button.active {
+  color: #6b4b7d;
+  text-decoration: underline;
+}
+
+.lang-switch span {
+  color: #c3a9d8;
+}

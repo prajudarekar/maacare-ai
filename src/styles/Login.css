@@ -1,0 +1,94 @@
+/* Full page soft background */
+/* Full page background including header */
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fde7f3, #f5d9ff);
+}
+
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fde7f3, #f5d9ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main card – same as image */
+.login-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 2.8rem 2.4rem;
+  width: 100%;
+  max-width: 380px;
+  border: 1px solid #f1d9f0;
+  box-shadow: 0 30px 55px rgba(150, 90, 180, 0.22);
+}
+
+/* Heading */
+.login-card h2 {
+  color: #6b4b7d;
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin-bottom: 1.8rem;
+}
+
+/* Inputs – soft & rounded */
+.login-card input {
+  border-radius: 16px;
+  padding: 12px 14px;
+  border: 1px solid #f1d9f0;
+  font-size: 0.9rem;
+}
+
+.login-card input::placeholder {
+  color: #b59acb;
+}
+
+.login-card input:focus {
+  border-color: #f58bb8;
+  box-shadow: 0 0 0 2px #f3c4e9;
+}
+
+/* Login button – gradient like image */
+.login-card .btn-primary {
+  background: linear-gradient(90deg, #f58bb8, #c6a3e8);
+  border: none;
+  border-radius: 18px;
+  padding: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 0.6rem;
+  box-shadow: 0 12px 25px rgba(198, 163, 232, 0.45);
+  transition: all 0.25s ease;
+}
+
+.login-card .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(198, 163, 232, 0.6);
+  opacity: 0.95;
+}
+
+/* Bottom links */
+.login-links {
+  margin-top: 1.2rem;
+  font-size: 0.85rem;
+}
+
+.login-links a {
+  color: #9a7fb3;
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  color: #6b4b7d;
+  text-decoration: underline;
+}
+
+/* Mobile friendly */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 2.2rem 1.8rem;
+  }
+}

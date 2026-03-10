@@ -1,0 +1,71 @@
+/* Full page background */
+.disclaimer-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fde7f3, #f5d9ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main card */
+.disclaimer-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 22px;
+  padding: 2.5rem 2.2rem;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #f1d9f0;
+  box-shadow: 0 25px 45px rgba(150, 90, 180, 0.18);
+}
+
+/* Heading */
+.disclaimer-card h2 {
+  color: #6b4b7d;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+/* Text */
+.disclaimer-card p {
+  color: #7a5c8f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Agree button */
+.agree-btn {
+  background: linear-gradient(90deg, #f58bb8, #c6a3e8);
+  border: none;
+  border-radius: 18px;
+  padding: 12px 28px;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(198, 163, 232, 0.4);
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.agree-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(198, 163, 232, 0.55);
+  opacity: 0.95;
+}
+
+/* Mobile friendly */
+@media (max-width: 480px) {
+  .disclaimer-card {
+    padding: 2rem 1.6rem;
+  }
+
+  .disclaimer-card h2 {
+    font-size: 1.4rem;
+  }
+}

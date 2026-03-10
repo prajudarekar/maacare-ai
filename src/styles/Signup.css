@@ -1,0 +1,72 @@
+/* Background */
+.signup-wrapper {
+  background: radial-gradient(circle at top, #fde7f3, #f3d7ff);
+}
+
+/* Card */
+.signup-card {
+  width: 420px;
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0 25px 60px rgba(155, 89, 182, 0.25);
+  background: #ffffff;
+}
+
+/* Avatar */
+.signup-avatar {
+  width: 90px;
+  height: 90px;
+}
+
+/* Purple text */
+.text-purple {
+  color: #8e5cff;
+}
+
+/* Input styling */
+.input-group .form-control {
+  border-left: none;
+  padding: 12px;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none;
+  border-color: #c9b6ff;
+}
+
+.input-icon {
+  background: #fff;
+  border-right: none;
+  color: #8e5cff;
+}
+
+/* Show button */
+.show-btn {
+  text-decoration: none;
+  color: #8e5cff;
+  font-size: 14px;
+}
+
+/* Signup button */
+.signup-btn {
+  background: linear-gradient(90deg, #c084fc, #8b5cf6);
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.signup-btn:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+.link-text {
+  color: #8e5cff;
+  cursor: pointer;
+}
+
+.continue-text {
+  color: #8e5cff;
+  cursor: pointer;
+}
